@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#f7f8f4" />
+  <meta name="description" content="一份可执行的四周下肢专项训练计划：动作详解、逐组记录、训练复盘，数据保存在本机。" />
+  <title>稳步 · 下肢专项训练</title>
+  
+  
+  <style>
+:root{font-family:Inter,-apple-system,BlinkMacSystemFont,"SF Pro Text","PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;color:#1e2d2b;background:#f6f7f4;font-synthesis:none;text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased}*{box-sizing:border-box}body{margin:0;min-width:320px}button,input,textarea,select{font:inherit}button{cursor:pointer}button:disabled{cursor:not-allowed;opacity:.48}a{color:inherit;text-decoration:none}button:focus-visible,a:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-visible{outline:3px solid #a8d7a2;outline-offset:3px}.shell{display:grid;grid-template-columns:252px minmax(0,1fr);min-height:100vh}.sidebar{background:#f1f3ee;border-right:1px solid #e2e7dc;padding:32px 22px;display:flex;flex-direction:column;position:sticky;top:0;height:100vh}.brand{display:flex;align-items:center;gap:12px;padding-left:6px}.brand-mark{width:42px;height:42px;display:grid;place-items:center;background:#216651;border-radius:14px;color:#e9f2d6;font-size:24px;font-weight:700}.brand strong{font-size:21px;letter-spacing:.8px;display:block}.brand small{display:block;color:#81908a;letter-spacing:1.9px;font-size:8px;margin-top:1px;font-weight:800}.sidebar-label{font-weight:800;font-size:10px;letter-spacing:2px;color:#99a49b;margin:65px 0 18px 14px}.nav-list{display:grid;gap:6px}.nav-link{border:0;background:transparent;color:#667570;border-radius:13px;display:flex;align-items:center;gap:12px;padding:14px 15px;font-size:14px;text-align:left;font-weight:640}.nav-link svg{width:19px;height:19px;flex:none}.nav-link.active{background:#e0e9df;color:#1b614d}.nav-link:hover:not(.active){background:#e8ece5}.sidebar-bottom{margin-top:auto;background:#e7ede3;border:1px solid #dde5d9;border-radius:16px;padding:18px;color:#597167}.sidebar-bottom .privacy-icon{font-size:24px;color:#377862;margin-bottom:8px}.sidebar-bottom strong{display:block;font-size:12px;color:#38594d}.sidebar-bottom p{font-size:11px;line-height:1.7;margin:7px 0 0}.main-column{min-width:0}.topbar{height:78px;display:flex;justify-content:space-between;align-items:center;padding:0 48px;border-bottom:1px solid #e8ebe6;background:#fafbf8}.breadcrumb{font-size:13px;color:#7f8b85}.breadcrumb span{margin:0 9px;color:#bbc7bc}.breadcrumb strong{color:#315e50}.top-right{font-size:12px;font-weight:600;color:#87958d}.online-dot{display:inline-block;background:#80a96e;width:7px;height:7px;border-radius:50%;margin-right:8px}.page{max-width:1130px;padding:46px 48px 56px;margin:auto}.page-kicker{font-size:11px;letter-spacing:2px;color:#6d937b;font-weight:850;text-transform:uppercase}.page-heading{font-size:clamp(27px,3vw,36px);letter-spacing:-1px;line-height:1.35;margin:11px 0 9px;font-weight:780}.page-description{color:#82918a;font-size:14px;line-height:1.75;margin:0 0 30px}.hero{background:linear-gradient(117deg,#195947 0%,#2a7055 57%,#3e8664 100%);border-radius:25px;color:white;padding:34px;min-height:220px;position:relative;overflow:hidden;display:flex;align-items:flex-start;justify-content:space-between;gap:15px;box-shadow:0 16px 35px rgba(30,99,73,.12)}.hero::before,.hero::after{content:"";position:absolute;pointer-events:none;border:1px solid rgba(230,248,215,.18);border-radius:50%;width:400px;height:400px;right:-160px;top:-260px}.hero::after{width:300px;height:300px;right:-50px;top:26px;opacity:.45}.hero-content{position:relative;z-index:1}.hero-label{color:#b8ddbe;letter-spacing:1.5px;font-size:11px;font-weight:750}.hero h2{font-size:31px;line-height:1.35;letter-spacing:-.8px;margin:15px 0 14px}.hero p{font-size:13px;color:#d4e9d8;margin:0;line-height:1.75}.hero-progress{position:relative;z-index:1;display:flex;flex-direction:column;align-items:center;gap:12px;flex-shrink:0}.progress-ring{height:116px;width:116px;border-radius:50%;background:conic-gradient(#d8ef9b var(--percentage),rgba(255,255,255,.14) 0);display:grid;place-items:center}.progress-ring::before{content:"";width:92px;height:92px;background:#2e7155;border-radius:50%;position:absolute}.progress-ring span{position:relative;text-align:center;font-weight:800;font-size:26px;line-height:1.1}.progress-ring small{display:block;font-size:10px;color:#cfdfc9;font-weight:500;margin-top:6px}.hero-progress>small{font-size:11px;color:#e7f3db}.stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin:20px 0 37px}.stat-card{background:#fff;border:1px solid #e8ece6;border-radius:18px;padding:20px 22px;display:flex;align-items:flex-start;justify-content:space-between;gap:12px;min-height:115px}.stat-name{font-size:12px;color:#829087;margin-bottom:12px}.stat-value{font-size:27px;font-weight:760;line-height:1.15;color:#1c3029}.stat-value span{font-size:12px;color:#9ba7a0;font-weight:500;margin-left:6px}.stat-icon{background:#edf5e6;color:#4f8c63;border-radius:13px;width:35px;height:35px;display:grid;place-items:center;font-size:17px}.section-title-row{display:flex;justify-content:space-between;align-items:center;gap:12px;margin:30px 0 16px}.section-title{font-size:19px;letter-spacing:-.4px;margin:0;font-weight:760}.muted{color:#8b9790;font-size:12px;line-height:1.7}.tiny-heading{font-size:11px;letter-spacing:1.1px;color:#859b89;font-weight:800}.text-link{background:transparent;border:0;padding:4px 0;color:#29735a;font-size:13px;font-weight:700}.workout-panel{background:#fff;border:1px solid #e6ebe5;border-radius:20px;overflow:hidden}.warmup{display:flex;align-items:center;gap:15px;background:#f0f4e9;padding:19px 22px}.warmup-icon{background:#dde9d2;color:#54785a;padding:10px;border-radius:10px}.warmup strong{display:block;font-size:13px}.warmup span{font-size:12px;color:#788e7c;display:block;margin-top:4px}.exercise-row{padding:20px 22px;display:grid;grid-template-columns:55px minmax(0,1fr) auto;align-items:center;gap:17px;border-top:1px solid #eef1ed}.exercise-index{width:52px;height:52px;border-radius:14px;background:#eaf1e5;color:#587d64;display:grid;place-items:center;font-size:18px;font-weight:800}.exercise-index[data-n="1"]{background:#e1ede4;color:#247056}.exercise-row-main h3{font-size:15px;margin:0 0 4px;font-weight:760}.exercise-row-main p{font-size:12px;color:#84918a;line-height:1.5;margin:0}.exercise-row-main .sets-caption{font-size:12px;color:#447560;font-weight:750;margin-top:7px}.row-actions{display:flex;align-items:center;gap:7px}.ghost-btn,.outline-btn{border:1px solid #dce8db;color:#296c53;background:white;border-radius:11px;font-size:12px;font-weight:750;padding:9px 12px}.outline-btn:hover,.ghost-btn:hover{background:#f1f7ef}.primary-btn{border:0;background:#276f55;color:#fff;font-size:13px;font-weight:740;padding:12px 20px;border-radius:12px;box-shadow:0 5px 14px rgba(39,111,85,.12)}.primary-btn:hover:not(:disabled){background:#205f4a}.secondary-btn{border:0;background:#e6f0e3;color:#356d4e;font-size:13px;font-weight:750;padding:12px 18px;border-radius:12px}.danger-btn{border:1px solid #f0dad4;background:#fff;color:#b7533d;font-size:12px;font-weight:700;padding:8px 11px;border-radius:10px}.btn-row{display:flex;gap:10px;align-items:center;flex-wrap:wrap}.footer-note{font-size:12px;color:#87958c;line-height:1.8}.section-panel{background:#fff;border:1px solid #e7ece5;border-radius:19px;padding:23px}.session-head{display:flex;justify-content:space-between;align-items:center;gap:10px;padding-bottom:15px}.session-head h3{margin:0;font-size:16px}.session-head span{font-size:12px;color:#819186}.set-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.set-col{background:#f7f9f5;border-radius:13px;padding:12px}.set-col h4{font-size:12px;color:#5d7667;margin:0 0 10px}.set-buttons{display:flex;gap:7px;flex-wrap:wrap}.set-pill{border:1px solid #d8e3d9;border-radius:9px;background:white;color:#708477;font-size:12px;font-weight:700;height:34px;min-width:38px}.set-pill.checked{background:#2c7558;color:white;border-color:#2c7558}.session-ex{padding:19px 0;border-top:1px solid #ebeeea}.session-ex-name{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-bottom:14px}.session-ex-name strong{font-size:14px}.session-ex-name small{color:#8b988e}.session-controls{display:flex;justify-content:space-between;align-items:center;margin-top:12px;gap:10px}.mini-control{border:1px solid #e0e8df;background:#fff;border-radius:9px;padding:6px 10px;color:#365e50;font-weight:750}.session-summary{display:flex;align-items:center;justify-content:space-between;margin:18px 0;padding:17px;background:#ecf2e8;border-radius:13px}.input-wrap{display:grid;gap:7px;margin-bottom:14px}.input-wrap label{font-size:12px;font-weight:730;color:#435e50}.input-wrap input,.input-wrap textarea,.input-wrap select{border:1px solid #dbe5db;border-radius:12px;background:#fff;padding:12px 13px;color:#2e463a;width:100%;outline:0}.input-wrap textarea{min-height:78px;resize:vertical}.range-row{display:flex;justify-content:space-between;align-items:center;font-size:12px;color:#5d7366}.input-wrap input[type=range]{padding:8px 0;accent-color:#287458}.grids-two{display:grid;grid-template-columns:1fr 1fr;gap:16px}.guide-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.guide-card{border:1px solid #e7ece6;background:white;border-radius:19px;padding:21px;display:flex;flex-direction:column;gap:13px}.guide-illustration{background:linear-gradient(140deg,#edf3e5,#e0ecdc);min-height:144px;border-radius:14px;display:grid;place-items:center;position:relative;overflow:hidden}.guide-illustration .illustration-icon{font-size:66px;line-height:1;color:#648d69;opacity:.8}.guide-illustration svg{width:100%;height:140px}.guide-num{position:absolute;top:13px;left:15px;color:#648776;font-size:11px;letter-spacing:1px;font-weight:800}.guide-card h3{font-size:16px;margin:0}.guide-card p{font-size:12px;color:#809087;line-height:1.75;margin:0;flex:1}.guide-footer{display:flex;align-items:center;justify-content:space-between;gap:10px}.guide-footer span{font-size:11px;color:#46745d;font-weight:760}.modal-overlay{position:fixed;inset:0;background:rgba(19,36,29,.48);z-index:30;display:grid;place-items:center;padding:18px}.modal{background:#fff;border-radius:20px;max-width:600px;width:100%;max-height:min(88vh,850px);overflow:auto;box-shadow:0 18px 70px rgba(9,35,24,.24)}.modal-head{display:flex;align-items:flex-start;justify-content:space-between;padding:26px 26px 17px;gap:15px;position:sticky;top:0;background:#fff;z-index:2;border-bottom:1px solid #eef1ec}.modal-head small{display:block;color:#5f9676;font-weight:800;letter-spacing:1px;margin-bottom:6px}.modal-head h2{margin:0;font-size:21px}.close-btn{border:0;background:#f2f5f0;border-radius:9px;height:34px;width:34px;font-size:21px;line-height:1}.modal-body{padding:24px 26px 28px}.guide-list{margin:8px 0 18px;padding-left:21px;font-size:14px;line-height:1.95;color:#4b6556}.guide-list li{padding-left:4px}.detail-subtitle{font-size:11px;font-weight:800;color:#56846a;letter-spacing:1px;margin:22px 0 9px}.note-box{background:#eff5eb;border-radius:12px;padding:14px 16px;color:#4e6955;font-size:13px;line-height:1.8}.caution{background:#fff7ee;color:#946c3d}.history-card{background:white;border:1px solid #e7ece5;border-radius:15px;margin:12px 0;padding:20px}.history-head{display:flex;align-items:center;justify-content:space-between;gap:12px}.history-head strong{font-size:15px}.history-head small{color:#93a098;font-size:12px;display:block;margin-top:5px}.history-badge{font-size:11px;background:#e8f2e6;color:#357250;border-radius:9px;padding:7px 10px;font-weight:750}.history-metrics{display:flex;gap:15px;flex-wrap:wrap;margin:16px 0 0;color:#697d6e;font-size:12px}.history-footer{display:flex;justify-content:space-between;gap:8px;align-items:center;border-top:1px solid #eff1ec;margin-top:14px;padding-top:13px}.chart-card{background:#fff;border:1px solid #e8eee6;border-radius:17px;padding:22px}.chart-card svg{width:100%;max-height:240px}.empty-state{text-align:center;border:1px dashed #dce5db;background:#fff;border-radius:17px;padding:40px 20px;color:#7b8b7f;font-size:13px;line-height:1.8}.empty-state strong{display:block;color:#456b52;font-size:17px;margin:11px}.settings-row{display:flex;align-items:center;justify-content:space-between;gap:15px;padding:20px 0;border-top:1px solid #eff2ed}.settings-row strong{font-size:14px}.settings-row p{font-size:12px;line-height:1.7;color:#839087;margin:5px 0 0}.settings-row input{max-width:175px}.settings-stack{display:grid;gap:10px}.site-footer{padding:22px 48px 34px;color:#a0ada3;font-size:11px;display:flex;justify-content:space-between;gap:8px}.mobile-nav{display:none}.toast{position:fixed;bottom:30px;left:50%;transform:translate(-50%,12px);background:#203c30;color:#fff;border-radius:12px;padding:12px 18px;opacity:0;pointer-events:none;transition:opacity .18s,transform .18s;font-size:13px;z-index:50;box-shadow:0 8px 25px rgba(0,0,0,.17)}.toast.show{opacity:1;transform:translate(-50%,0)}.small-info{color:#6a7d70;font-size:12px;line-height:1.7}.phase-pill{font-size:12px;color:#39775a;background:#e9f3e4;padding:8px 12px;border-radius:999px;font-weight:760}.phase-card{border-left:3px solid #67a175;background:#eef4e9;border-radius:0 14px 14px 0;padding:17px 18px;margin:17px 0}.phase-card strong{font-size:13px}.phase-card p{font-size:12px;color:#62816d;line-height:1.8;margin:8px 0 0}.divider{height:1px;background:#e9eee8;margin:16px 0}.chip{display:inline-block;background:#edf3ea;color:#4d7961;font-size:11px;font-weight:750;border-radius:8px;padding:6px 9px}.alert{border-left:3px solid #ce9655;background:#fff7ec;color:#856e51;border-radius:0 10px 10px 0;padding:13px 16px;font-size:12px;line-height:1.8;margin-top:20px}.loading{opacity:.6}
+@media(max-width:1020px){.shell{grid-template-columns:215px minmax(0,1fr)}.sidebar{padding:28px 15px}.topbar{padding:0 30px}.page{padding:38px 30px}.site-footer{padding-left:30px;padding-right:30px}.hero{padding:27px}.stat-card{padding:18px 14px}}
+@media(max-width:740px){.shell{display:block}.sidebar{display:none}.topbar{height:57px;padding:0 20px}.top-right{font-size:10px}.page{padding:26px 17px 110px}.page-heading{font-size:27px}.page-description{font-size:13px;margin-bottom:20px}.hero{min-height:175px;padding:23px;border-radius:19px}.hero h2{font-size:23px}.hero p{font-size:11px}.hero-progress{gap:9px}.progress-ring{width:78px;height:78px}.progress-ring::before{width:61px;height:61px}.progress-ring span{font-size:19px}.progress-ring small{font-size:8px}.hero-progress>small{font-size:9px}.stats{gap:9px;margin:14px 0 25px}.stat-card{min-height:92px;padding:14px 11px;border-radius:13px;display:block}.stat-name{font-size:10px;margin-bottom:9px}.stat-value{font-size:22px}.stat-value span{font-size:10px;display:block;margin:4px 0 0}.stat-icon{display:none}.section-title{font-size:17px}.exercise-row{grid-template-columns:39px minmax(0,1fr);gap:11px;padding:16px}.exercise-index{height:40px;width:40px;border-radius:10px;font-size:14px}.exercise-row-main h3{font-size:14px}.exercise-row-main p{font-size:11px}.row-actions{grid-column:2;justify-content:flex-start}.warmup{padding:16px;gap:11px}.guide-grid{grid-template-columns:1fr}.grids-two{grid-template-columns:1fr}.guide-card{padding:17px}.guide-illustration{min-height:115px}.guide-illustration svg{height:110px}.site-footer{display:none}.mobile-nav{display:grid;grid-template-columns:repeat(4,1fr);align-items:center;position:fixed;bottom:0;left:0;right:0;padding:8px max(8px,env(safe-area-inset-right)) calc(9px + env(safe-area-inset-bottom)) max(8px,env(safe-area-inset-left));z-index:20;background:rgba(255,255,255,.96);border-top:1px solid #e1e9df;box-shadow:0 -4px 20px rgba(24,56,35,.05);backdrop-filter:blur(14px)}.mobile-nav .nav-link{padding:5px 1px;display:flex;flex-direction:column;gap:4px;align-items:center;justify-content:center;font-size:10px;border-radius:8px;min-height:49px}.mobile-nav .nav-link svg{width:19px;height:19px}.mobile-nav .nav-link.active{background:#eef5ec}.modal-overlay{padding:0;align-items:end}.modal{border-radius:20px 20px 0 0;max-height:91vh}.modal-head{padding:21px 20px 15px}.modal-body{padding:19px 20px 27px}.set-col{padding:10px}.set-pill{min-width:33px;height:33px}.toast{bottom:90px;min-width:max-content;max-width:90vw}.settings-row{flex-direction:column;align-items:stretch}.settings-row input{max-width:100%}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;transition-duration:0s!important}}
+
+</style>
+  <script>
+"use strict";
+const KEY = 'steady-step-v1';
+const exercises = [
+    { id: 'stepdown', name: '低台阶下踩', en: 'Step-down', tag: '膝关节动态控制', purpose: '练习髋、膝、踝在单腿承重时的协同。', dose: 8, unit: '次', sided: true, icon: 'step', steps: ['找一个固定、防滑的 5–10 cm 低台阶，站稳并靠近墙面。', '右脚站在台阶上，另一条腿从台阶外侧自然垂下。', '右膝用约 3 秒缓慢弯曲，让左脚跟轻触地面。', '用右腿控制站回原位；换左脚支撑重复。'], cues: ['骨盆尽量保持水平，允许轻扶墙面。', '膝盖沿自己舒适的脚尖方向弯曲，不强行扭正。', '下降平稳，比下得多低更重要。'], mistakes: ['下降过快或脚直接砸地', '身体明显侧倾、骨盆旋转', '结束时突然向后顶膝'], easier: '降低台阶高度，减小下降距离，单手扶墙。', warning: '出现疼痛、打软腿或明显关节卡住时停止。' },
+    { id: 'rdl', name: '单腿罗马尼亚硬拉', en: 'Single-leg RDL', tag: '髋部与骨盆稳定', purpose: '训练髋后侧力量，并让支撑侧足踝参与整体平衡。', dose: 8, unit: '次', sided: true, icon: 'hinge', steps: ['站直，右脚承重，右膝自然微屈，手可扶墙。', '臀部向后推，上半身从髋部向前倾，左腿同时向后伸。', '在保持骨盆相对稳定的范围内停住，不追求手摸到地面。', '缓慢站回起始位置，交换支撑腿。'], cues: ['动作来自髋关节折叠，不是弯腰驼背。', '骨盆尽量朝向地面，不把抬起一侧向外打开。', '脚趾保持放松，不刻意抓地。'], mistakes: ['腰部弓起或过度挺腰', '骨盆大幅旋转', '为了追求幅度丢失平衡'], easier: '后脚脚尖轻点地做 Kickstand RDL，或轻扶墙面。', warning: '出现腰部、膝部疼痛或眩晕时停止。' },
+    { id: 'split', name: '分腿蹲', en: 'Split Squat', tag: '单侧负重力量', purpose: '提高单侧下肢力量与前后方向的姿势控制。', dose: 8, unit: '次', sided: true, icon: 'split', steps: ['右脚前、左脚后，建立稳定的前后站姿，必要时扶墙。', '保持躯干自然直立，同时弯曲双膝，缓慢下降约 2–3 秒。', '下降到舒适深度，右脚跟不要刻意离地。', '缓慢起身，完成后交换前腿。'], cues: ['前脚的脚尖与膝盖保持自然一致的运动方向。', '后腿可以辅助，但由前腿承担主要训练负荷。', '不要让膝盖突然向后锁死。'], mistakes: ['步距过窄导致明显摇晃', '为求低位强行扭转膝关节', '用后腿猛蹬起身'], easier: '缩小下蹲深度、双手扶稳固支撑。', warning: '膝部疼痛或明显不稳定时减小幅度，持续存在则暂停。' },
+    { id: 'calf', name: '双脚慢速提踵', en: 'Calf Raise', tag: '足踝力量与推蹬', purpose: '增强小腿跖屈力量，观察足跟和前脚掌负重过程。', dose: 12, unit: '次', sided: false, icon: 'calf', steps: ['双脚自然站立，与髋同宽，双手轻扶墙面。', '用约 2 秒缓慢抬起两侧脚跟至舒适高度。', '短暂停顿后，以约 3 秒控制脚跟落地。', '全程重复，保持呼吸自然。'], cues: ['前脚掌自然承重，不刻意追求“三点平均”。', '抬起过程中观察右脚跟是否倾斜。', '脚趾尽量放松，避免用力抓地。'], mistakes: ['身体前冲代替踝部发力', '脚跟突然下落', '为了左右感觉一样而扭转足部'], easier: '改成坐姿双脚提踵，或减少提踵幅度。', warning: '若前脚掌持续明显不适、麻木或疼痛，暂停此项。' },
+    { id: 'wall', name: '靠墙髋外侧等长压', en: 'Wall Press', tag: '髋外侧稳定', purpose: '训练单腿承重时的髋外侧抗侧倾能力。', dose: 25, unit: '秒', sided: true, icon: 'wall', steps: ['训练右腿时，将身体左侧靠近墙，右脚在地面支撑。', '左髋与左膝自然弯曲，用左膝外侧轻轻压墙。', '维持右侧骨盆稳定、躯干直立，保持指定秒数。', '放松，换方向训练左腿。'], cues: ['施加中等力量，不需要用尽全力。', '支撑腿膝盖微屈，均匀呼吸。', '不要把整个人的重量倾倒到墙上。'], mistakes: ['用侧倾身体代替髋外侧发力', '屏气', '支撑膝突然锁死'], easier: '缩短至 10–15 秒，减小压墙力量。', warning: '出现髋部或膝部疼痛时停止。' }
+];
+const PAGES = { today: '今日训练', library: '动作指南', history: '训练记录', settings: '设置' };
+const icons = { today: '<rect x="3" y="3" width="18" height="18" rx="4"/><path d="M7 13l3 3 7-8"/>', library: '<rect x="4" y="4" width="16" height="16" rx="2"/><path d="M8 8h8M8 12h8M8 16h5"/>', history: '<circle cx="12" cy="12" r="9"/><path d="M12 7v5l4 2"/>', settings: '<circle cx="12" cy="12" r="3"/><path d="M12 2v3m0 14v3M2 12h3m14 0h3M4.9 4.9 7 7m10 10 2.1 2.1m0-14.2L17 7M7 17l-2.1 2.1"/>' };
+const icon = (tag) => `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${tag}</svg>`;
+const escapeHtml = (v) => String(v ?? '').replace(/[&<>"']/g, s => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[s] || s));
+const localDate = (d) => `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+const isDate = (s) => typeof s === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(s) && !Number.isNaN(new Date(`${s}T12:00:00`).getTime());
+function defaultState() { return { version: 1, startDate: localDate(new Date()), sessions: [], working: null }; }
+function stateFromUnknown(v) { if (!v || typeof v !== 'object')
+    return null; const obj = v; if (obj.version !== 1 || !isDate(obj.startDate) || !Array.isArray(obj.sessions) || obj.sessions.length > 2000)
+    return null; for (const s of obj.sessions) {
+    if (!s || typeof s.id !== 'string' || !isDate(s.date) || !s.exercises || typeof s.exercises !== 'object' || !(typeof s.rpe === 'number' || s.rpe === null) || !(typeof s.discomfortAfter === 'number' || s.discomfortAfter === null))
+        return null;
+} return { version: 1, startDate: obj.startDate, sessions: obj.sessions, working: obj.working && typeof obj.working === 'object' ? obj.working : null }; }
+function load() { try {
+    return stateFromUnknown(JSON.parse(localStorage.getItem(KEY) || '')) || defaultState();
+}
+catch {
+    return defaultState();
+} }
+let state = load();
+let currentTab = 'today';
+const store = () => { try {
+    localStorage.setItem(KEY, JSON.stringify(state));
+}
+catch {
+    toast('本地存储失败；请先导出记录再清理浏览器空间。');
+} };
+const phase = () => Math.max(1, Math.min(4, Math.floor((new Date().getTime() - new Date(`${state.startDate}T00:00:00`).getTime()) / 86400000 / 7) + 1));
+const targetSets = () => phase() === 1 ? 2 : 3;
+const startOfWeek = (d) => { const n = new Date(d.getFullYear(), d.getMonth(), d.getDate()); const wd = (n.getDay() + 6) % 7; n.setDate(n.getDate() - wd); return n; };
+const thisWeek = () => { const m = startOfWeek(new Date()).getTime(); return state.sessions.filter(s => { const d = new Date(`${s.date}T12:00:00`).getTime(); return d >= m && d < m + 7 * 86400000; }).length; };
+const setCount = (w) => exercises.reduce((sum, e) => { const a = w.exercises[e.id]; return sum + (a ? [...a.right, ...a.left, ...a.both].filter(Boolean).length : 0); }, 0);
+const totalCount = (w) => exercises.reduce((sum, e) => { const a = w.exercises[e.id]; return sum + (a ? a.sets * (e.sided ? 2 : 1) : 0); }, 0);
+const toast = (msg) => { const e = document.getElementById('toast'); if (!e)
+    return; e.textContent = msg; e.classList.add('show'); setTimeout(() => e.classList.remove('show'), 3200); };
+const main = () => document.getElementById('app');
+function buildNav() { for (const n of ['desktopNav', 'mobileNav']) {
+    const target = document.getElementById(n);
+    if (!target)
+        continue;
+    target.innerHTML = Object.keys(PAGES).map(tab => `<button type="button" class="nav-link ${tab === currentTab ? 'active' : ''}" data-action="tab" data-tab="${tab}" aria-current="${tab === currentTab ? 'page' : 'false'}">${icon(icons[tab])}<span>${PAGES[tab]}</span></button>`).join('');
+} document.getElementById('breadcrumb').textContent = PAGES[currentTab]; }
+function render() { buildNav(); document.title = `${PAGES[currentTab]} · 稳步`; main().innerHTML = currentTab === 'today' ? renderToday() : currentTab === 'library' ? renderLibrary() : currentTab === 'history' ? renderHistory() : renderSettings(); }
+function renderToday() {
+    const curr = thisWeek(), p = phase(), progress = Math.min(100, curr / 3 * 100), w = state.working;
+    return `<div class="page">
+<div class="page-kicker">TRAINING DASHBOARD / WEEK ${String(p).padStart(2, '0')}</div><h1 class="page-heading">让每一步，稳得更自然。</h1><p class="page-description">无需跑步 · 专注力量与动作控制 · 每周三次 · 自主渐进</p>
+<section class="hero"><div class="hero-content"><div class="hero-label">4-WEEK MOVEMENT PROGRAM</div><h2>稳住节奏，<br/>找回身体的控制感。</h2><p>先练好动作，再逐步增加负荷。<br/>不强行纠正膝盖或脚尖的自然朝向。</p></div><div class="hero-progress"><div class="progress-ring" style="--percentage:${progress}%"><span>${curr}<small>/ 3 次</small></span></div><small>本周训练进度</small></div></section>
+<div class="stats"><div class="stat-card"><div><div class="stat-name">当前训练阶段</div><div class="stat-value">第 ${p} <span>/ 4 周</span></div></div><div class="stat-icon">↗</div></div><div class="stat-card"><div><div class="stat-name">累计训练次数</div><div class="stat-value">${state.sessions.length}<span>次</span></div></div><div class="stat-icon">◷</div></div><div class="stat-card"><div><div class="stat-name">本周计划</div><div class="stat-value">3<span>次 / 周</span></div></div><div class="stat-icon">◈</div></div></div>
+${w ? renderWorking(w) : renderPlan(p)}</div>`;
+}
+function renderPlan(p) { return `<div class="section-title-row"><h2 class="section-title">本次训练 · 5 个动作</h2><span class="phase-pill">第 ${p} 周 · 每动作 ${targetSets()} 组</span></div><section class="workout-panel"><div class="warmup"><span class="warmup-icon">↗</span><div><strong>先做 5 分钟热身</strong><span>自然步行 + 膝碰墙踝活动 8 次/侧</span></div></div>${exercises.map((ex, i) => `<div class="exercise-row"><div class="exercise-index" data-n="${i + 1}">${String(i + 1).padStart(2, '0')}</div><div class="exercise-row-main"><h3>${ex.name}</h3><p>${ex.tag} · ${ex.en}</p><div class="sets-caption">${targetSets()} 组 × ${ex.dose} ${ex.unit}${ex.sided ? '/侧' : ''}</div></div><div class="row-actions"><button class="ghost-btn" data-action="detail" data-ex="${ex.id}">动作详解 ↗</button></div></div>`).join('')}</section><div class="section-title-row"><div><span class="muted">组间休息 60–90 秒；第一周强度 RPE 5–6/10</span></div><button class="primary-btn" data-action="start">开始训练 →</button></div><section class="phase-card"><strong>本周训练原则</strong><p>${phaseCopy(p)}</p></section><p class="footer-note">若出现疼痛、肿胀、卡锁、麻木或真实无力，请停止对应动作并就医。长期不适如持续存在，应接受专业运动评估。</p>`; }
+function phaseCopy(p) { return ({ 1: '重新适应：虽然你可能可以完成更高训练量，本周默认 2 组；实际可以如实增减组数并记录。', 2: '恢复标准容量：主要动作 3 组，以可控动作和次日耐受为前提。', 3: '渐进加负荷：先保持动作质量，再给 RDL 或分腿蹲逐步加轻重量；每次只调整一个变量。', 4: '巩固复测：维持可控的训练量，在相同机位复拍动作，比对控制能力和舒适度。' })[p] || ''; }
+function makeWorking() { return { startTime: new Date().toISOString(), exercises: Object.fromEntries(exercises.map(ex => [ex.id, { sets: targetSets(), right: [], left: [], both: [] }])), rpe: 5, discomfortBefore: 5, discomfortAfter: 5, comment: '' }; }
+function renderWorking(w) { const done = setCount(w), total = totalCount(w), percent = Math.round(done / Math.max(1, total) * 100); return `<div class="section-title-row"><h2 class="section-title">正在训练</h2><span class="phase-pill">已完成 ${done} / ${total} 组</span></div><section class="workout-panel"><div class="warmup"><span class="warmup-icon">◷</span><div><strong>保持稳定节奏</strong><span>按完成的组数打卡；每侧单独记录，支持临时调整组数。</span></div></div><div style="padding:0 23px">${exercises.map(ex => renderSessionEx(ex, w.exercises[ex.id])).join('')}</div></section><div class="section-title-row"><h2 class="section-title">训练反馈</h2><span class="muted">仅存本机</span></div><div class="section-panel"><div class="input-wrap"><label for="workRpe">主观训练强度（RPE）</label><div class="range-row"><span>轻松</span><strong id="rpeNum">${w.rpe}/10</strong><span>最大强度</span></div><input type="range" min="1" max="10" id="workRpe" data-field="rpe" value="${w.rpe}" /></div><div class="grids-two"><div class="input-wrap"><label for="beforeNum">训练前不自然感 (0–10)</label><input type="number" id="beforeNum" min="0" max="10" data-field="discomfortBefore" value="${w.discomfortBefore}" /></div><div class="input-wrap"><label for="afterNum">训练后不自然感 (0–10)</label><input type="number" id="afterNum" min="0" max="10" data-field="discomfortAfter" value="${w.discomfortAfter}" /></div></div><div class="input-wrap"><label for="workNote">本次备注（可选）</label><textarea id="workNote" data-field="comment" placeholder="例如：Step-down 右侧需要扶墙，提踵无痛">${escapeHtml(w.comment)}</textarea></div><div class="session-summary"><span class="small-info">本次完成情况</span><strong>${percent}%</strong></div><div class="btn-row"><button class="primary-btn" data-action="save-session">保存本次训练</button><button class="outline-btn" data-action="abandon-session">放弃本次</button></div></div><p class="footer-note">训练时不追求双腿主观感受完全一致。若新出现疼痛、肿胀、卡锁或明显失稳，及时停止。</p>`; }
+function renderSessionEx(ex, w) { const column = (side, title) => `<div class="set-col"><h4>${title}</h4><div class="set-buttons">${Array.from({ length: w.sets }, (_, i) => `<button type="button" aria-pressed="${Boolean(w[side][i])}" aria-label="${ex.name} ${title} 第 ${i + 1} 组" class="set-pill ${w[side][i] ? 'checked' : ''}" data-action="toggle-set" data-ex="${ex.id}" data-side="${side}" data-index="${i}">${w[side][i] ? '✓' : i + 1}</button>`).join('')}</div></div>`; return `<div class="session-ex"><div class="session-ex-name"><div><strong>${ex.name}</strong><small> · ${ex.dose}${ex.unit}${ex.sided ? '/侧' : ''}</small></div><button class="text-link" data-action="detail" data-ex="${ex.id}">查看要点 ↗</button></div><div class="set-grid">${ex.sided ? column('right', '右侧') + column('left', '左侧') : `${column('both', '双脚共同完成')}<div class="set-col" style="display:flex;align-items:center"><span class="small-info">缓慢、平稳、不刻意改变脚尖方向</span></div>`}</div><div class="session-controls"><span class="muted">调整该动作组数</span><div><button class="mini-control" aria-label="减少 ${ex.name} 组数" data-action="change-sets" data-ex="${ex.id}" data-change="-1">−</button> <strong>${w.sets} 组</strong> <button class="mini-control" aria-label="增加 ${ex.name} 组数" data-action="change-sets" data-ex="${ex.id}" data-change="1">+</button></div></div></div>`; }
+function renderLibrary() { return `<div class="page"><div class="page-kicker">MOVEMENT LIBRARY</div><h1 class="page-heading">动作指南</h1><p class="page-description">每个动作都有执行步骤、动作要点、常见错误和降阶方式。首先确保无痛、可控。</p><div class="guide-grid">${exercises.map((ex, i) => `<article class="guide-card"><div class="guide-illustration"><span class="guide-num">MOVEMENT / 0${i + 1}</span>${illustration(ex.icon)}</div><div><h3>${ex.name}</h3><p style="color:#5c9172;font-size:11px;margin:5px 0">${ex.en} · ${ex.tag}</p></div><p>${ex.purpose}</p><div class="guide-footer"><span>${targetSets()} 组 × ${ex.dose}${ex.unit}${ex.sided ? '/侧' : ''}</span><button class="outline-btn" data-action="detail" data-ex="${ex.id}">查看动作详情 →</button></div></article>`).join('')}</div><div class="alert">提示：这些是通用运动练习，并非针对某个已明确诊断的矫正治疗。不要强行纠正膝盖或脚尖的自然朝向。</div></div>`; }
+function illustration(name) {
+    const stroke = '#547f67', dark = '#284d3c';
+    let body = '';
+    const line = (x1, y1, x2, y2) => `<line x1="${x1}" y1="${y1}" x2="${x2}" y2="${y2}"/>`;
+    const head = (x, y) => `<circle cx="${x}" cy="${y}" r="10" fill="none"/>`;
+    if (name === 'step') {
+        body = `<path d="M40 106H105V86H159" stroke="#acc9aa" stroke-width="5" fill="none"/>${head(95, 22)}${line(95, 32, 92, 60)}${line(92, 60, 83, 84)}${line(83, 84, 76, 86)}${line(92, 60, 116, 85)}${line(116, 85, 116, 105)}${line(90, 43, 65, 55)}${line(96, 43, 119, 53)}`;
+    }
+    else if (name === 'hinge') {
+        body = `<path d="M25 110H164" stroke="#acc9aa" stroke-width="5"/>${head(123, 39)}${line(114, 42, 75, 67)}${line(75, 67, 71, 106)}${line(71, 106, 65, 110)}${line(75, 67, 122, 80)}${line(122, 80, 155, 77)}${line(97, 53, 87, 80)}${line(92, 52, 111, 66)}`;
+    }
+    else if (name === 'split') {
+        body = `<path d="M25 110H165" stroke="#acc9aa" stroke-width="5"/>${head(95, 20)}${line(95, 30, 97, 65)}${line(97, 65, 73, 86)}${line(73, 86, 70, 108)}${line(97, 65, 123, 91)}${line(123, 91, 147, 108)}${line(95, 40, 73, 54)}${line(96, 40, 116, 52)}`;
+    }
+    else if (name === 'calf') {
+        body = `<path d="M25 110H160" stroke="#acc9aa" stroke-width="5"/>${head(95, 19)}${line(95, 29, 95, 63)}${line(95, 63, 87, 89)}${line(87, 89, 91, 105)}${line(91, 105, 108, 105)}${line(95, 63, 115, 89)}${line(115, 89, 117, 105)}${line(117, 105, 132, 105)}${line(95, 44, 68, 52)}${line(97, 44, 120, 56)}<path d="M87 118v-8m-3 4 3-4 3 4" stroke="#547f67" stroke-width="2" fill="none"/>`;
+    }
+    else {
+        body = `<path d="M45 10V114" stroke="#acc9aa" stroke-width="6"/><path d="M28 110H166" stroke="#acc9aa" stroke-width="5"/>${head(100, 21)}${line(100, 31, 100, 63)}${line(100, 63, 116, 85)}${line(116, 85, 124, 108)}${line(100, 63, 65, 73)}${line(65, 73, 48, 55)}${line(100, 44, 77, 51)}${line(100, 44, 119, 50)}`;
+    }
+    return `<svg viewBox="0 0 190 125" role="img" aria-label="${name === 'step' ? '台阶控制示意' : name === 'hinge' ? '髋铰链动作示意' : name === 'split' ? '分腿蹲示意' : name === 'calf' ? '提踵示意' : '墙侧髋控制示意'}"><g stroke="${dark}" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" fill="none">${body}</g></svg>`;
+}
+function showDetail(id) { const ex = exercises.find(v => v.id === id); if (!ex)
+    return; const modal = document.getElementById('modalRoot'); modal.innerHTML = `<div class="modal-overlay" data-action="close-overlay"><div class="modal" role="dialog" aria-modal="true" aria-label="${ex.name} 动作详解"><div class="modal-head"><div><small>${ex.en.toUpperCase()}</small><h2>${ex.name}</h2></div><button class="close-btn" aria-label="关闭动作详情" data-action="close-modal">×</button></div><div class="modal-body"><div class="guide-illustration">${illustration(ex.icon)}</div><p class="small-info" style="font-size:14px;margin:18px 0 0">${ex.purpose}</p><div class="detail-subtitle">01 / 执行步骤</div><ol class="guide-list">${ex.steps.map(s => `<li>${escapeHtml(s)}</li>`).join('')}</ol><div class="detail-subtitle">02 / 关键要点</div><ul class="guide-list">${ex.cues.map(s => `<li>${escapeHtml(s)}</li>`).join('')}</ul><div class="detail-subtitle">03 / 常见错误</div><ul class="guide-list">${ex.mistakes.map(s => `<li>${escapeHtml(s)}</li>`).join('')}</ul><div class="detail-subtitle">04 / 难度调整</div><div class="note-box">${ex.easier}</div><div class="detail-subtitle">暂停条件</div><div class="note-box caution">${ex.warning}</div><div class="btn-row" style="margin-top:20px"><button class="primary-btn" data-action="close-modal">知道了</button></div></div></div></div>`; const close = modal.querySelector('button.close-btn'); close?.focus(); document.body.style.overflow = 'hidden'; }
+function closeModal() { const m = document.getElementById('modalRoot'); m.innerHTML = ''; document.body.style.overflow = ''; }
+function renderHistory() { const data = [...state.sessions].sort((a, b) => b.startTime.localeCompare(a.startTime)); const chartRows = data.filter(s => typeof s.discomfortAfter === 'number' && Number.isFinite(s.discomfortAfter)).slice(0, 12).reverse(); return `<div class="page"><div class="page-kicker">YOUR JOURNEY</div><h1 class="page-heading">训练记录</h1><p class="page-description">用完成情况和动作感受验证训练是否有帮助，而不是每天检查膝盖外形。</p><div class="stats"><div class="stat-card"><div><div class="stat-name">已记录训练</div><div class="stat-value">${data.length}<span>次</span></div></div></div><div class="stat-card"><div><div class="stat-name">完成组数</div><div class="stat-value">${data.reduce((sum, s) => sum + Object.values(s.exercises).reduce((a, x) => a + x.right + x.left + x.both, 0), 0)}<span>组</span></div></div></div><div class="stat-card"><div><div class="stat-name">最近一次 RPE</div><div class="stat-value">${data[0]?.rpe ?? '—'}<span>/10</span></div></div></div></div>${chartRows.length > 1 ? renderChart(chartRows) : `<div class="empty-state">至少记录两次训练后，这里会出现“不自然感”变化趋势。<br/>评分只表示主观感受，不用于诊断。</div>`}<div class="section-title-row"><h2 class="section-title">全部训练</h2><span class="muted">${data.length} 次记录</span></div>${data.length ? data.map(s => { const count = Object.values(s.exercises).reduce((v, e) => v + e.right + e.left + e.both, 0); return `<article class="history-card"><div class="history-head"><div><strong>${escapeHtml(s.date)} <span class="history-badge">${s.historical ? '历史补录' : '已保存'}</span></strong><small>${s.historical ? '由用户补录，未记录实际次数' : `约 ${s.durationMinutes} 分钟 · ${count} 组`}</small></div><button class="danger-btn" data-action="delete-session" data-id="${escapeHtml(s.id)}">删除</button></div><div class="history-metrics"><span>完成 ${count} 组</span><span>RPE ${s.rpe === null ? '未记' : `${s.rpe}/10`}</span><span>不自然感：${s.discomfortBefore ?? '未记'} → ${s.discomfortAfter ?? '未记'}</span></div>${s.comment ? `<div class="history-footer"><p class="small-info">${escapeHtml(s.comment)}</p></div>` : ''}</article>`; }).join('') : `<div class="empty-state"><strong>还没有训练记录</strong>完成第一次训练后，这里会显示组数、评分和备注。</div>`}</div>`; }
+function renderChart(data) { const left = 40, top = 22, w = 520, h = 185; const count = data.length; const pt = (s, i) => `${left + (i / (count - 1)) * w},${top + h - (s.discomfortAfter ?? 0) / 10 * h}`; return `<div class="chart-card"><div class="section-title-row" style="margin-top:0"><h2 class="section-title">不自然感变化</h2><span class="muted">最近 ${count} 次</span></div><svg viewBox="0 0 600 250" role="img" aria-label="训练后不自然感趋势，分数越低表示主观不自然感越低"><g stroke="#e4ebe5" stroke-width="1">${[0, 5, 10].map(v => `<line x1="40" y1="${top + h - v / 10 * h}" x2="560" y2="${top + h - v / 10 * h}"/>`).join('')}</g><g fill="#889c8d" font-size="12">${[0, 5, 10].map(v => `<text x="12" y="${top + h - v / 10 * h + 4}">${v}</text>`).join('')}<text x="40" y="236">较早</text><text x="532" y="236">最近</text></g><polyline points="${data.map(pt).join(' ')}" fill="none" stroke="#337d60" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>${data.map((s, i) => `<circle cx="${left + i / (count - 1) * w}" cy="${top + h - (s.discomfortAfter ?? 0) / 10 * h}" r="5" fill="#337d60" stroke="white" stroke-width="2"><title>${escapeHtml(s.date)}: ${s.discomfortAfter ?? '—'}/10</title></circle>`).join('')}</svg><p class="small-info">0 = 没有不自然感，10 = 非常明显；这不是医疗检测指标。</p></div>`; }
+function renderSettings() { return `<div class="page"><div class="page-kicker">YOUR DATA</div><h1 class="page-heading">计划与数据</h1><p class="page-description">无需注册账号。所有训练日志都保存在当前浏览器；不同设备不会自动同步。</p><div class="section-panel"><h2 class="section-title">训练设置</h2><div class="settings-row"><div><strong>计划开始日期</strong><p>四周训练阶段根据该日期自动计算；调整不会删除记录。</p></div><input type="date" id="planStart" value="${escapeHtml(state.startDate)}" /></div><div class="settings-row"><div><strong>四周阶段进度</strong><p>第一周默认每项 2 组；第二周起默认 3 组。实际完成量可自主修改。</p></div><span class="phase-pill">第 ${phase()} / 4 周</span></div><h2 class="section-title" style="margin-top:25px">数据管理</h2><div class="settings-row"><div><strong>导出训练记录</strong><p>保存完整 JSON 文件，可用于换手机、换浏览器后的备份。</p></div><button class="primary-btn" data-action="export">导出 JSON</button></div><div class="settings-row"><div><strong>导入历史数据</strong><p>从此网站导出的 JSON 恢复记录。导入会替换本机已有记录。</p></div><label class="outline-btn" for="importInput" style="cursor:pointer;white-space:nowrap">选择 JSON 文件</label><input type="file" id="importInput" accept="application/json,.json" style="display:none" /></div><div class="settings-row"><div><strong>清空本地训练数据</strong><p>此操作不可撤销，请先导出备份。</p></div><button class="danger-btn" data-action="reset">清空数据</button></div></div><div class="alert">隐私说明：本站没有账号、数据库、分析脚本或后端接口。训练数据仅存于此浏览器的 LocalStorage；浏览器清理数据或无痕模式可能导致记录丢失。公开网页并不意味着你的记录会公开。</div></div>`; }
+function exportData() { const data = JSON.stringify(state, null, 2); const blob = new Blob([data], { type: 'application/json' }); const u = URL.createObjectURL(blob); const a = document.createElement('a'); a.href = u; a.download = `稳步训练记录-${localDate(new Date())}.json`; document.body.append(a); a.click(); a.remove(); setTimeout(() => URL.revokeObjectURL(u), 1000); toast('已准备 JSON 备份'); }
+async function importData(file) { if (file.size > 2_000_000) {
+    toast('文件过大，请检查是否为训练记录');
+    return;
+} try {
+    const data = stateFromUnknown(JSON.parse(await file.text()));
+    if (!data) {
+        toast('导入失败：不是有效的训练记录');
+        return;
+    }
+    if (!confirm('导入会替换本机现有训练记录。建议先导出备份。确认继续吗？'))
+        return;
+    state = data;
+    store();
+    render();
+    toast(`导入成功，共 ${state.sessions.length} 条记录`);
+}
+catch {
+    toast('导入失败，请检查 JSON 文件格式');
+} }
+function saveSession() { const w = state.working; if (!w)
+    return; const c = setCount(w); if (c === 0) {
+    toast('请先打卡至少一组训练');
+    return;
+} if (!confirm(`已完成 ${c}/${totalCount(w)} 组，确定保存本次训练吗？`))
+    return; const endTime = new Date().toISOString(); const startMs = new Date(w.startTime).getTime(); const s = { id: `session-${Date.now()}-${Math.random().toString(36).slice(2, 7)}`, date: localDate(new Date()), startTime: w.startTime, endTime, durationMinutes: Math.max(1, Math.round((Date.now() - startMs) / 60000)), exercises: Object.fromEntries(exercises.map(e => { const x = w.exercises[e.id]; const completed = (v) => v.filter(Boolean).length; return [e.id, { sets: x.sets, right: completed(x.right), left: completed(x.left), both: completed(x.both), dose: e.dose, unit: e.unit }]; })), rpe: w.rpe, discomfortBefore: w.discomfortBefore, discomfortAfter: w.discomfortAfter, comment: w.comment }; state.sessions.push(s); state.working = null; store(); currentTab = 'history'; render(); toast('本次训练已保存到本机'); }
+function clickAction(e) { const target = e.target.closest('[data-action]'); if (!target)
+    return; const action = target.dataset.action; const ex = target.dataset.ex || ''; if (action === 'tab') {
+    currentTab = target.dataset.tab;
+    location.hash = currentTab;
+    render();
+    window.scrollTo({ top: 0, behavior: 'instant' });
+} if (action === 'detail')
+    showDetail(ex); if (action === 'close-modal')
+    closeModal(); if (action === 'close-overlay' && e.target === target)
+    closeModal(); if (action === 'start') {
+    state.working = makeWorking();
+    store();
+    render();
+} if (action === 'toggle-set' && state.working) {
+    const working = state.working.exercises[ex];
+    const side = target.dataset.side;
+    const i = Number(target.dataset.index);
+    if (!working || !['right', 'left', 'both'].includes(side) || !Number.isInteger(i) || i < 0 || i >= working.sets)
+        return;
+    working[side][i] = !working[side][i];
+    store();
+    render();
+} if (action === 'change-sets' && state.working) {
+    const working = state.working.exercises[ex];
+    if (!working)
+        return;
+    const n = working.sets + Number(target.dataset.change);
+    if (n < 1 || n > 6)
+        return;
+    working.sets = n;
+    working.right.length = n;
+    working.left.length = n;
+    working.both.length = n;
+    store();
+    render();
+} if (action === 'save-session')
+    saveSession(); if (action === 'abandon-session') {
+    if (confirm('放弃未保存的本次训练吗？')) {
+        state.working = null;
+        store();
+        render();
+    }
+} if (action === 'export')
+    exportData(); if (action === 'reset') {
+    if (confirm('确定清空全部训练记录与进度吗？此操作不可恢复。')) {
+        state = defaultState();
+        store();
+        render();
+        toast('已清空本地数据');
+    }
+} if (action === 'delete-session') {
+    const id = target.dataset.id;
+    if (confirm('删除这条训练记录吗？')) {
+        state.sessions = state.sessions.filter(s => s.id !== id);
+        store();
+        render();
+        toast('已删除记录');
+    }
+} }
+document.addEventListener('click', clickAction);
+document.addEventListener('keydown', e => { if (e.key === 'Escape' && document.getElementById('modalRoot')?.children.length)
+    closeModal(); });
+document.addEventListener('input', e => { const el = e.target; const field = el.dataset.field; if (!field || !state.working)
+    return; if (field === 'rpe' || field === 'discomfortBefore' || field === 'discomfortAfter') {
+    const n = Number(el.value);
+    if (Number.isFinite(n) && n >= 0 && n <= 10)
+        state.working[field] = n;
+    if (field === 'rpe') {
+        const shown = document.getElementById('rpeNum');
+        if (shown)
+            shown.textContent = `${state.working.rpe}/10`;
+    }
+}
+else if (field === 'comment') {
+    state.working.comment = el.value.slice(0, 1000);
+} store(); });
+document.addEventListener('change', e => { const el = e.target; if (el.id === 'planStart' && isDate(el.value)) {
+    state.startDate = el.value;
+    store();
+    render();
+} if (el.id === 'importInput' && el.files?.[0])
+    void importData(el.files[0]); });
+const route = () => { const t = location.hash.replace(/^#/, ''); return t in PAGES ? t : 'today'; };
+window.addEventListener('hashchange', () => { currentTab = route(); render(); });
+currentTab = route();
+render();
+
+</script>
+</head>
+<body>
+  <div class="shell">
+    <aside class="sidebar" aria-label="主导航">
+      <a class="brand" href="#today" aria-label="稳步首页"><span class="brand-mark" aria-hidden="true">稳</span><span><strong>稳步</strong><small>MOVE WITH INTENT</small></span></a>
+      <div class="sidebar-label">TRAINING STUDIO</div>
+      <nav id="desktopNav" class="nav-list"></nav>
+      <div class="sidebar-bottom"><div class="privacy-icon">◈</div><strong>只留在你的设备</strong><p>训练日志默认仅存浏览器本地，不上传到服务器。</p></div>
+    </aside>
+    <div class="main-column">
+      <header class="topbar"><div class="breadcrumb">个人训练空间 <span>/</span> <strong id="breadcrumb">今日训练</strong></div><div class="top-right"><span class="online-dot"></span> 本地记录模式</div></header>
+      <main id="app" tabindex="-1"></main>
+      <footer class="site-footer"><span>稳步 · MOVE WITH INTENT</span><span>通用训练参考 · 非医疗诊断</span></footer>
+    </div>
+  </div>
+  <nav id="mobileNav" class="mobile-nav" aria-label="移动端导航"></nav>
+  <div id="modalRoot"></div>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
